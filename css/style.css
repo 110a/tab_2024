@@ -355,7 +355,8 @@ svg#Layer_1 {
 
 .tab-2024 {
   position: relative;
-  height: calc(100vh - 64px); }
+  height: calc(100vh - 64px);
+  overflow: hidden; }
 
 .map-part {
   opacity: 0;
@@ -387,7 +388,20 @@ header {
   position: absolute;
   right: 30px;
   top: 20px;
-  z-index: 300; }
+  z-index: 300;
+  cursor: pointer;
+  transition: color 0.3s; }
+  @media only screen and (max-width: 1024px) {
+    .btn-close,
+    .btn-menu {
+      font-size: 18px;
+      top: 15px; } }
+
+.btn-close:hover {
+  color: #9f9998; }
+
+.btn-menu:hover {
+  color: #faff00; }
 
 .btn-close {
   display: none; }
@@ -400,8 +414,7 @@ header {
 
 nav {
   transform: translate(0px, 0px);
-  transition: transform 0.9s ease-in-out;
-  transition-delay: 0.3s; }
+  transition: transform 0.9s ease-in-out; }
   nav ul {
     display: flex;
     flex-direction: column;
@@ -429,7 +442,7 @@ nav {
       opacity: 0;
       max-height: 0px;
       overflow: hidden;
-      transition: opacity 4s, max-height 2s; }
+      transition: opacity 2s, max-height 1s; }
       @media only screen and (max-width: 1380px) {
         nav ul.has-parent {
           margin-top: 53px; } }
@@ -442,7 +455,7 @@ nav {
       nav ul.has-parent.height {
         max-height: 500px;
         opacity: 1;
-        transition: opacity 1s; }
+        transition: opacity 2s, max-height 1s; }
 
 .tab-nav {
   background-color: #9f9998;
@@ -452,15 +465,17 @@ nav {
   position: absolute;
   width: 100%;
   left: 0px;
-  bottom: 130%;
+  top: -120%;
   min-height: 100vh;
-  transition: bottom 2s, background-color 1s ease-in-out;
+  transition: bottom 0.9s, background-color 1s ease-in-out;
   z-index: 200;
-  padding-right: 30px; }
+  padding-right: 30px;
+  overflow: scroll; }
   @media only screen and (max-width: 800px) {
     .tab-nav {
       flex-direction: column;
-      justify-content: flex-start; } }
+      justify-content: flex-start;
+      padding-bottom: 60px; } }
   .tab-nav .soc-networks {
     transform: translate(-300px, 0px);
     transition: transform 0.9s;
@@ -470,7 +485,7 @@ nav {
         display: none; } }
   .tab-nav.is-open {
     background-color: #faff00;
-    bottom: 0px;
+    top: 0px;
     transition: bottom 1s, background-color 1s ease-in-out; }
     .tab-nav.is-open nav {
       transform: translate(0px, 10px); }
@@ -478,6 +493,7 @@ nav {
         .tab-nav.is-open nav {
           padding-left: 30px; } }
     .tab-nav.is-open .has-children {
+      max-height: 500px;
       opacity: 1; }
       .tab-nav.is-open .has-children:nth-of-type(1) {
         transform: translate(0px, 0px); }
