@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 1920 1025">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        font-family: GTAmericaTrial-Rg, 'GT America Trial';
+      }
+
+      .cls-1, .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2, .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-4, .cls-5 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+      }
+
+      .cls-3 {
+        font-size: 14px;
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        fill: #faff00;
+        font-size: 17px;
+      }
+
+      .cls-7 {
+        display: none;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.6.0, SVG Export Plug-In . SVG Version: 1.2.0 Build 709)  -->
+  <g>
+    <g id="Layer_1">
+      <image class="cls-7" width="3360" height="2100" transform="translate(-55.2 -173) scale(.6)" xlink:href="../../../../Desktop/Screenshot 2024-08-19 at 15.09.33.png"/>
+      <g>
+        <image id="_x30_1" width="199" height="141" transform="translate(44.5 22.1)" xlink:href="map/peace-01.png"/>
+        <image id="_x30_2" width="227" height="166" transform="translate(63.7 2)" xlink:href="map/peace-02.png"/>
+        <image id="_x30_3" width="166" height="129" transform="translate(144)" xlink:href="map/peace-03.png"/>
+      </g>
+      <g>
+        <image id="_x30_4" width="117" height="103" transform="translate(324.1)" xlink:href="map/peace-04.png"/>
+        <image id="_x30_5" width="153" height="193" transform="translate(337.6 2)" xlink:href="map/peace-05.png"/>
+        <image id="_x30_6" width="91" height="109" transform="translate(451.5 3)" xlink:href="map/peace-06.png"/>
+        <image id="_x30_7" width="194" height="168" transform="translate(390.6 14.5)" xlink:href="map/peace-07.png"/>
+      </g>
+      <text class="cls-3" transform="translate(192.3 69.7)"><tspan x="0" y="0">CORRECT MISTAKES</tspan></text>
+      <text class="cls-3" transform="translate(295.8 108.8)"><tspan x="0" y="0">CORRECT MISTAKES</tspan></text>
+      <text class="cls-3" transform="translate(257.2 129.2)"><tspan x="0" y="0">CORRECT MISTAKES</tspan></text>
+      <text class="cls-3" transform="translate(317.8 157.4)"><tspan x="0" y="0">CORRECT MISTAKES</tspan></text>
+      <text class="cls-3" transform="translate(363.2 22.1)"><tspan x="0" y="0">CORRECT MISTAKES</tspan></text>
+      <text class="cls-3" transform="translate(522.7 33.8)"><tspan x="0" y="0">CORRECT MISTAKES</tspan></text>
+      <text class="cls-6" transform="translate(78.8 112)"><tspan class="cls-1" x="0" y="0">42</tspan><tspan class="cls-4" x="20.5" y="0">°</tspan><tspan class="cls-1" x="26.6" y="0">17</tspan><tspan class="cls-4" x="43.1" y="0">&apos;</tspan><tspan class="cls-2" x="46.9" y="0">01</tspan><tspan class="cls-5" x="65.9" y="0">&quot;</tspan><tspan class="cls-2" x="72.3" y="0">N </tspan><tspan class="cls-1" x="0" y="18">43</tspan><tspan class="cls-5" x="20.9" y="18">°</tspan><tspan class="cls-1" x="27" y="18">18</tspan><tspan class="cls-4" x="45" y="18">&apos;</tspan><tspan class="cls-2" x="48.9" y="18">29</tspan><tspan class="cls-5" x="69.1" y="18">&quot;</tspan><tspan class="cls-1" x="75.5" y="18">E</tspan></text>
+    </g>
+  </g>
+</svg>
